@@ -41995,7 +41995,6 @@ gen_enable
 gen_read
 gen_write
 get_fosc_khz
-getdatabuffer
 getdatacan
 glcd_box
 glcd_circle
@@ -42198,7 +42197,6 @@ hugefrm
 hugefrm
 hugefrm
 hugefrm_bit
-i
 i2c_is_idle
 i2c_is_idle_ptr
 i2c_read
@@ -44139,6 +44137,8 @@ incm1
 incm1_bit
 initialize
 initializecan
+initializeleds
+initializeuart
 int0ep
 int0ep
 int0ep
@@ -45270,21 +45270,9 @@ latgsetbits
 lcd_chr
 lcd_chr_cp
 lcd_cmd
-lcd_d4
-lcd_d4_direction
-lcd_d5
-lcd_d5_direction
-lcd_d6
-lcd_d6_direction
-lcd_d7
-lcd_d7_direction
-lcd_en
-lcd_en_direction
 lcd_init
 lcd_out
 lcd_out_cp
-lcd_rs
-lcd_rs_direction
 ldexp
 ldiv
 left_to_right
@@ -45912,7 +45900,6 @@ month102_bit
 month103
 month103_alrmdate_bit
 month103_bit
-move_delay
 mpen
 mpen
 mpen
@@ -46404,8 +46391,6 @@ msel90_c2fltcon2_bit
 msel91
 msel91_bit
 msel91_c2fltcon2_bit
-msg_rcvd
-msg_send
 mssen
 mssen
 mssen
@@ -51657,7 +51642,6 @@ read
 read_
 read_bit
 readuartdata
-recieve
 regaddr
 regaddr
 regaddr
@@ -58111,8 +58095,8 @@ sen_i2c1con_bit
 sen_i2c2con_bit
 sen_i2c4con_bit
 sen_i2c5con_bit
-senddatabuffer
 senddatacan
+senddatauart
 serrie
 serrie
 serrie
@@ -63479,8 +63463,6 @@ twip
 twip
 twip
 twip_bit
-tx_data_len
-tx_id
 txabat
 txabat
 txabat
@@ -69048,7 +69030,6 @@ txrts
 txrts
 txrts
 txrts_bit
-txrx_data
 txstaddr
 txstaddr
 txstaddr
@@ -69113,10 +69094,6 @@ txstaddr8
 txstaddr8_bit
 txstaddr9
 txstaddr9_bit
-txt1
-txt2
-txt3
-txt4
 txwarn
 txwarn
 txwarn
@@ -74663,8 +74640,6 @@ wrerr
 wrerr
 wrerr_bit
 wrestartinterval
-writelcdrow1
-writelcdrow2
 wrsp
 wrsp
 wrsp

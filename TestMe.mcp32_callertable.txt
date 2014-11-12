@@ -1,15 +1,10 @@
 main
 	initialize
-		UART1_Init
-			UART_Calc_BRG
-			Get_Fosc_kHz
-		Lcd_Init
-			Delay_5500us
-			Delay_1us
-		Lcd_Cmd
-			Delay_1us
-			Delay_5500us
-			Delay_50us
+		initializeUART
+			UART1_Init
+				UART_Calc_BRG
+				Get_Fosc_kHz
+		initializeLEDs
 		initializeCAN
 			CAN1Initialize
 				CAN1SetOperationMode
@@ -20,16 +15,9 @@ main
 			CAN1SetMask
 			CAN1SetFilter
 	getdataCAN
-		CAN1Write
-			CAN1WriteBuffer
 		CAN1Read
 			CAN1ReadBuffer
-		Lcd_Cmd
-		writeLCDRow1
-			Lcd_Out
-				Lcd_Cmd
-				Lcd_Chr_CP
-					Lcd_Cmd
+	sendDataUART
 		UART1_Write_Text
 			UART1_Write
 	__CC2DW

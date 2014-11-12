@@ -24,8 +24,9 @@ Count=0
 Count=0
 ActiveImageIndex=-1
 [OPENED_FILES]
-Count=1
+Count=2
 File0=TestMe.c
+File1=TestMe.h
 [EEPROM]
 Count=0
 [ACTIVE_COMMENTS_FILES]
@@ -33,10 +34,11 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=3
+Count=4
 Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\defs\
 Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\uses\
-Path2=C:\Users\Kari\Desktop\TestMe\
+Path2=C:\Users\Kari\Desktop\embedded\
+Path3=C:\Users\Kari\Desktop\TestMe\
 [HEADER_PATH]
 Count=0
 [HEADERS]
